@@ -43,6 +43,7 @@ font-size: 30px;
 line-height: 35px;
 display: flex;
 text-align: center;
+width: 220px;
 }
 .top-nome-evento img{
 position: static;
@@ -50,4 +51,39 @@ width: 220px;
 height: 258px;
 left: 0px;
 margin-top: 68px;
+}
+.top-nome-evento {
+    width: 220px;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 50px;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
+    position:static;
+    display:inline-block;
+    width: 220px;
+    height: 35px;
+    color:rgba(114, 92, 92, 1);
+    text-align:center;
+    font-size: 15px;
+    font-family:"Quicksand";
+        
+}
+nav a label{
+    margin-left: 5px;
+}
+nav a:hover {
+    transition:0s;
+    background-color:  rgba(253, 241, 235, 1);
+    border-left: 3px solid
+    rgba(237, 120, 57, 1);
 }
