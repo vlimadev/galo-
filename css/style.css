@@ -22,7 +22,7 @@ border-radius: 0px;
 }
 
 header{
-position:absolute;
+position:relative;
 width: 100%;
 height: 68px;
 left: 0px;
@@ -224,7 +224,7 @@ nav a:hover {
 }
 
 .conteudo{
-    position: absolute;
+    position:absolute;
     width: 1059px;
     height: 1382px;
     left: 263px;
@@ -359,7 +359,7 @@ color: #5C5C5C;
 }
 
 .txt-resumo{
-position: absolute;
+position: relative;
 width: 1058px;
 height: max-content;
 left: 1px;
@@ -368,12 +368,12 @@ border: 1px solid #ECECEC;
 box-sizing: content-box;
 border-radius: 3px;
 box-sizing: content-box;
-border-collapse: collapse;
+
 
 }
 
 .titulo-resumo{
-position: absolute;
+position: relative;
 width: 1058px;
 height: 45px;
 background: #FDF1EB;
@@ -391,7 +391,7 @@ color: #4E4E4E;
 }
 
 .txt-resumo-um{
- position: static;
+ position:relative;
 width: 1028px;
 height: max-content;
 left: 0px;
@@ -413,7 +413,7 @@ color: #5C5C5C;
 }
 
 #btnleiamais{
-    position: static;
+    position: relative;
     width: 60px;
     height: 24px;
     font-family: Quicksand;
@@ -429,8 +429,8 @@ color: #5C5C5C;
 
 
 #mais{
-    display:none;
-    position: static;
+    
+    position:relative;
     width: 1028px;
     height: 180px;
     left: 0px;
@@ -451,17 +451,24 @@ color: #5C5C5C;
 }
 
 .discussoes{
-    position:absolute;
+    position:relative;
     width: 1058px;
     height: 621px;
-    top: 1132px;
+    top: 580px;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
 }
 
 .titulo-discussoes{
-
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;    
+display: flex;
+align-items: center; 
+color: #4E4E4E;
 position:absolute;
 width: 1058px;
 height: 45px;
@@ -469,4 +476,92 @@ background: #FDF1EB;
 border: 1px solid #ECECEC;
 box-sizing: border-box;
 border-radius: 3px 3px 0px 0px;
+}
+
+.ideias-e-duvidas{
+position: absolute;
+left: 30.64%;
+right: 29.51%;
+top: 10%;
+bottom: 30.75%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #ED7839;
+height: 22px;
+width: 422px;
+
+
+
+
+}
+
+.icone1{
+position: relative;
+width: 50.26px;
+height: 48.94px;
+left: 402.5px;
+top: 100px;
+}
+
+.icone2{
+position: absolute;
+width: 50.26px;
+height: 48.94px;
+left: 504.5px;
+top: 100px;
+}
+
+.icone3{
+position: absolute;
+width: 50.26px;
+height: 48.94px;
+left: 608.5px;
+top: 100px;
+}
+
+.txt-estimulo{
+position: absolute;
+
+height: 39px;
+width: 626px;
+left: 216.5px;
+top: 1325px;
+border-radius: nullpx;
+top: 30%;
+bottom: 22.19%;
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align:center ;
+color: #595959;
+}
+
+.divisoria{
+background-color:#E7E7E7 ;
+height: 1px;
+width: 1034px;
+left: 10px;
+top: 220px;
+border: 1px solid #E7E7E7;
+}
+
+#btn-criar{
+position: absolute;
+left: 43.72%;
+right: 43.72%;
+top: 42%;
+bottom: 19.57%;
+height: 32px;
+width: 133px;
+left: 463px;
+border-radius: 4px;
+background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+border: none;
+color: #E7E7E7;
 }
