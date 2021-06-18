@@ -191,26 +191,26 @@ margin-top: 68px;
 }
 
 nav{
-    background-color: rgba(255, 255, 255, 1);
-    position: relative;
-    display: block;
-    width: 220px;
-    height: 50px;
+background-color: rgba(255, 255, 255, 1);
+position: relative;
+display: block;
+width: 220px;
+height: 50px;
     
     
 }
 nav a {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 1);
-    position:static;
-    display:inline-block;
-    width: 220px;
-    height: 35px;
-    color:rgba(114, 92, 92, 1);
-    text-align:center;
-    font-size: 15px;
-    font-family:"Quicksand";
-   border-bottom: 1px solid rgba(236, 236, 236, 1)
+text-decoration: none;
+background-color: rgba(255, 255, 255, 1);
+position:static;
+display:inline-block;
+width: 220px;
+height: 35px;
+color:rgba(114, 92, 92, 1);
+text-align:center;
+font-size: 15px;
+font-family:"Quicksand";
+border-bottom: 1px solid rgba(236, 236, 236, 1)
         
 }
 nav a label{
@@ -340,28 +340,89 @@ font-size: 20px;
 line-height: 25px;
 display: flex;
 align-items: center;
-
 color: #4E4E4E;
 
 }
 
 .txt-painel{
-    position: absolute;
-    width: 242px;
-    
-    left: 2%;
-    top: 12%;
-    
+position: absolute;
+width: 242px;   
+left: 2%;
+top: 12%;   
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.02em;   
+color: #5C5C5C;   
+}
+
+.txt-resumo{
+position: absolute;
+width: 1058px;
+height: 189px;
+left: 1px;
+top: 542px;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+.titulo-resumo{
+position: absolute;
+width: 1058px;
+height: 45px;
+background: #FDF1EB;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px 3px 0px 0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #4E4E4E;
+}
+
+.txt-resumo p{
+ position: static;
+width: 1028px;
+height: 485px;
+left: 0px;
+top: 0px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+letter-spacing: 0.02em;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+color: #5C5C5C;
+}
+
+#btnleiamais{
+    position: static;
+    width: 60px;
+    height: 24px;
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 120%;
-    /* or 14px */
-    
+    font-size: 14px;
+    line-height: 23px;
     letter-spacing: 0.02em;
-    
-    color: #5C5C5C;
-    
+    color: #ED7839;
+    border: ;
+   
+}
 
+
+#mais{
+    display:none;
 }
