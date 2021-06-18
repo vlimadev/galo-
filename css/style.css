@@ -210,6 +210,7 @@ nav a {
     text-align:center;
     font-size: 15px;
     font-family:"Quicksand";
+   border-bottom: 1px solid rgba(236, 236, 236, 1)
         
 }
 nav a label{
@@ -287,4 +288,80 @@ color: #FDF1EB;
 background: #ED7839;
 border-radius: 4px;
 border:none;
+}
+
+.video{
+    position: absolute;
+    width: 783px;
+    height: 439px;
+    left: 2px;
+    top: 73px;
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+}
+
+.como-citar{
+position: absolute;
+width: 242px;
+height: 25px;
+right: 0px;
+top: 43px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+text-align: right;
+letter-spacing: 0.05em;
+color: #ED7839;
+}
+
+.painel{
+position: absolute;
+width: 242px;
+height: 439px;
+left: 816px;
+top: 73px;
+border: 1px solid rgba(236, 236, 236, 1);
+}
+
+.titulo-painel{
+position: absolute;
+width: 242px;
+height: 45px;
+background: #FDF1EB;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px 3px 0px 0px;
+font-family:roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #4E4E4E;
+
+}
+
+.txt-painel{
+    position: absolute;
+    width: 242px;
+    
+    left: 2%;
+    top: 12%;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 14px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #5C5C5C;
+    
+
 }
