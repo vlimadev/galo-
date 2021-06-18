@@ -361,12 +361,15 @@ color: #5C5C5C;
 .txt-resumo{
 position: absolute;
 width: 1058px;
-height: 189px;
+height: max-content;
 left: 1px;
 top: 542px;
 border: 1px solid #ECECEC;
-box-sizing: border-box;
+box-sizing: content-box;
 border-radius: 3px;
+box-sizing: content-box;
+border-collapse: collapse;
+
 }
 
 .titulo-resumo{
@@ -387,10 +390,10 @@ align-items: center;
 color: #4E4E4E;
 }
 
-.txt-resumo p{
+.txt-resumo-um{
  position: static;
 width: 1028px;
-height: 485px;
+height: max-content;
 left: 0px;
 top: 0px;
 font-family: Quicksand;
@@ -405,6 +408,8 @@ align-self: stretch;
 flex-grow: 0;
 margin: 0px 0px;
 color: #5C5C5C;
+
+
 }
 
 #btnleiamais{
@@ -418,11 +423,50 @@ color: #5C5C5C;
     line-height: 23px;
     letter-spacing: 0.02em;
     color: #ED7839;
-    border: ;
+    border:none ;
    
 }
 
 
 #mais{
     display:none;
+    position: static;
+    width: 1028px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: #5C5C5C;
+    
+}
+
+.discussoes{
+    position:absolute;
+    width: 1058px;
+    height: 621px;
+    top: 1132px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.titulo-discussoes{
+
+position:absolute;
+width: 1058px;
+height: 45px;
+background: #FDF1EB;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px 3px 0px 0px;
 }
