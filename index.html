@@ -117,12 +117,33 @@
               Deixe seus questionamentos ou sugestões para o autor!</h2>
               <div class="divisoria"></div>
 
-              <button id="btn-criar">+CRIAR TÓPICO</button>
-         </section>
+              <button onclick="mostrar('seuformulario')" id="btn-criar">+CRIAR TÓPICO</button>
+             
 
-       
+              
+         </section>
+         <div id="form-topico">
+          <form  action="index.html" id="seuformulario">
+            <h1 class="titulo-assunto">Assunto</h1>
+          <input class="assunto" type="text" name="nome" placeholder="Assunto"/>
+          <h1 class="titulo-conteudo">Conteúdo</h1>
+          <textarea class="textarea"  placeholder="digite" rows="5" cols="33" minlength="0" maxlength="2000"></textarea>
+          <input type="submit" class="enviar" value="enviar"/>
+          <div class="barra-txt"></div>
+        </form>
+          
+        </div>     
+
+        
+        <div class="final">
+          <img src="./img/imagem - footer.png">
+        </div>
         </section>
-      
+        
+        
+          
+         
+        
     
      
 </body>
