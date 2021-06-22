@@ -1,3 +1,5 @@
+//Botão ver mais
+
 function leiaMais(){
     var pontos=document.getElementById("pontos");
     var maisTexto=document.getElementById("mais");
@@ -19,6 +21,8 @@ function leiaMais(){
         }
 }
 
+// mostrar conteudo oculto na div
+
 function mostrar(elemento){
     var display = document.getElementById(elemento).style.display;
       if(display == "none"){
@@ -28,6 +32,7 @@ function mostrar(elemento){
       }    
   }
 
+// Mostrar comentario realizado
   function comentar(){
       if (document.getElementById('coment').style.display ='none'){
       document.getElementById('coment').style.display ='block';
