@@ -463,7 +463,7 @@ color: #5C5C5C;
 .discussoes{
     position:relative;
     width: 1058px;
-    height: 621px;
+    height: 500px;
     top: 580px;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
@@ -585,16 +585,38 @@ display:inline;
   
   #form-topico{
     display: inline;
-    Width:1040px;
+    max-width:1040px;
    
   }
   
    #seuformulario{
      display:none;
      Width:800px;
-     height:100%;
-     top: 3%;
+     height:10%;
+     top: 130px;
      left: 1%;
+  }
+
+  .tem-alguma-duvida{
+height: 18px;
+width: 965.3748168945312px;
+left: 28.832763671875px;
+top: 0px;
+border-radius: nullpx;
+position: absolute;
+left: 2.81%;
+right: 3%;
+top: 0%;
+bottom: 92.65%;
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #5C5C5C;
+
+
   }
 
   .titulo-assunto{
@@ -631,6 +653,8 @@ font-weight: bold;
 font-size: 16px;
 line-height: 19px;
 color: #ED7839;
+
+
 
   }
 
@@ -693,8 +717,155 @@ background: #EAF1F2;
 border: 1px solid #CCCCCC;
 box-sizing: border-box;
 border-radius: 0px 0px 3px 4px;
-    
+}
+
+.comentarios{
+  display: none;
+  
+}
+
+.mensagem{
+  
+  height: 350px;
+  width: 1056px;
+  top: -12px;
+  border-radius: 4px;
+  position:absolute;
+  left:1px;
+  right: 1.51%;
+  bottom: 10.27%;
+  background: #FFFFFF;
+  
+}
+
+.mensagem h1{
+position: absolute;
+top:30px;
+height: 22px;
+width: 537.9583740234375px;
+left: 246.9871826171875px;
+bottom: 44.32%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #ED7839;
+}
+
+.mensagem p{
+height: 20px;
+width: 805.2459716796875px;
+left: 113.343505859375px;
+top:70px;
+position: absolute;
+bottom: 41.81%;
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #595959;
+}
+
+.mensagem h2{
+position: absolute;
+top:150px;
+left:33%;
+bottom: 38.57%;
+font-family: Quicksand;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 137.5%;
+text-align: center;
+text-decoration-line: underline;
+cursor: pointer;
+color: #F48F44;
+width: 306px;
+}
+
+.criar-novo-topico{
+height: 32px;
+width: 235.1453857421875px;
+left: 37%;
+top: 250px;
+position: absolute;
+right: 0%;
+bottom: 0%;
+background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+border-radius: 4px;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.barra-btn-criar{
+height: 0px;
+width: 1027px;
+left: 16px;
+top:265px;
+border-radius: 0px;
+position: absolute;
+border: 1px solid #E7E7E7;
+background-color: #ED7839;
+}
+
+.aguardando{
+display: hide;
+height: 148px;
+width: 1000px;
+left: 15px;
+top: 450px;
+border-radius: 4px;
+position: absolute;
+left: 1.42%;
+right: 1.51%;
+bottom: 10.27%;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.comentarios-feitos{
+  height: 0px;
+  width: 0px;
+  top: 44%;
+  position: relative;
+  left: 1.90%;
+
+}
+
+
+
+
+
+.comentarios-feitos img{
+  display: hide;
+  height: 148px;
+  width: 1000px;
+  left: 15px;
+  
+  border-radius: 4px;
+  position: relative;
+  left: 1.42%;
+  right: 1.51%;
+  bottom: 10.27%;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
   }
+
+
+
+
 .final{
 position: absolute;
 right: 4.01%;

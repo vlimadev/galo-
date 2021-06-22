@@ -122,22 +122,60 @@
 
               
          </section>
-         <div id="form-topico">
-          <form  action="index.html" id="seuformulario">
-            <h1 class="titulo-assunto">Assunto</h1>
-          <input class="assunto" type="text" name="nome" placeholder="Assunto"/>
-          <h1 class="titulo-conteudo">Conteúdo</h1>
-          <textarea class="textarea"  placeholder="digite" rows="5" cols="33" minlength="0" maxlength="2000"></textarea>
-          <input type="submit" class="enviar" value="enviar"/>
-          <div class="barra-txt"></div>
-        </form>
-          
-        </div>     
 
+         <div id="form-topico">
+
+          <form  id="seuformulario">
+
+            <h1 class="tem-alguma-duvida">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h1>
+
+            <h1 class="titulo-assunto">Assunto</h1>
+
+               <input class="assunto" type="text" name="nome" placeholder="Assunto"/>
+
+            <h1 class="titulo-conteudo">Conteúdo</h1>
+
+               <textarea class="textarea"  placeholder="digite" rows="5" cols="33" minlength="0" maxlength="2000"></textarea>
+
+               <input type="button" onclick="comentar('comentarios ; mensagem-enviada')" class="enviar" value="Enviar"/>
+
+              <div class="barra-txt"></div>
+
+            
+          </form> 
+          <section id="coment" class="comentarios">
+
+           <!-- <img class="mensagem" src="./img/login.png"> -->
+
+           <div class="mensagem">
+              <h1> Seu tópico foi enviado com sucesso! :D</h1>
+                  <P>Agradecemos por sua contribuição, uma notificação será enviada ao
+                     email assim que seu tópico for respondido!</P>
+
+                      <h2>Descubra outros Trabalhos!</h2>
+
+                        <div class="barra-btn-criar"></div>
+                          <button  onclick="comentar('mensagem')"  class="criar-novo-topico">criar novo tópico</button>
+
+           </div>
+
+            <img class="aguardando" src="./img/card tópico aguardadando validação.png" >
+
+         </section>
+         <section class="comentarios-feitos">
+          <img src="./img/card de tópico - colapsado.png" >
+          <img src="./img/card de tópico - colapsado.png" >
+         </section>
         
-        <div class="final">
-          <img src="./img/imagem - footer.png">
+         
+
         </div>
+        
+        
+        <!--    <div class="final">
+          <img src="./img/imagem - footer.png">
+        </div> -->
+
         </section>
         
         

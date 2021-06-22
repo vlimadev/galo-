@@ -27,3 +27,10 @@ function mostrar(elemento){
           document.getElementById(elemento).style.display = 'none';
       }    
   }
+
+  function comentar(){
+      
+      document.getElementById('coment').style.display ='block';
+  }
+  
+  
