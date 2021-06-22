@@ -29,8 +29,12 @@ function mostrar(elemento){
   }
 
   function comentar(){
-      
+      if (document.getElementById('coment').style.display ='none'){
       document.getElementById('coment').style.display ='block';
+    }else{
+        document.getElementById('coment').style.display ='none';
+    }
+
   }
   
   

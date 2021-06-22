@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="./css/style.css">
 <title></title>
 </head>
-<script type= "text/javascript" src="js/script.js"></script>
+<script type= "text/javascript" src="js/script.js" defer></script>
 <body>
   
   <header>
@@ -15,8 +15,9 @@
       <h1>Anais do 13º Simpósio Latino Americano de Ciências de Alimentos </h1>
       <h3>ISSN:1234-5678</h3>
       <select class="idioma">       
-        <option >PT.BR</option>
-        <option>ENG.US</option>        
+        <option ></option>
+        <option>en.US</option>  
+        <option>es</option>       
        </select>
        <p class="bem-vindo">Bem vindo!</p>
        <p class="email">vinilimadev@gmail.com</p>
@@ -48,9 +49,9 @@
     </section>
     <section class="conteudo">
       <h1 class="titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h1>
-        <button class="dowload">Dowload</button>
-        <button class="favorito">fav</button>
-        <button class="doi">doi</button>
+        <button class="dowload"></button>
+        <button class="favorito"></button>
+        <button class="doi"></button>
 
         <h2 class="como-citar">COMO CITAR ESSE TRABALHO?</h2>
          
@@ -131,11 +132,11 @@
 
             <h1 class="titulo-assunto">Assunto</h1>
 
-               <input class="assunto" type="text" name="nome" placeholder="Assunto"/>
+               <input class="assunto" required type="text" name="nome" placeholder="Assunto"/>
 
             <h1 class="titulo-conteudo">Conteúdo</h1>
 
-               <textarea class="textarea"  placeholder="digite" rows="5" cols="33" minlength="0" maxlength="2000"></textarea>
+               <textarea class="textarea" required placeholder="digite" rows="5" cols="33" minlength="0" maxlength="2000"></textarea>
 
                <input type="button" onclick="comentar('comentarios ; mensagem-enviada')" class="enviar" value="Enviar"/>
 
@@ -155,7 +156,7 @@
                       <h2>Descubra outros Trabalhos!</h2>
 
                         <div class="barra-btn-criar"></div>
-                          <button  onclick="comentar('mensagem')"  class="criar-novo-topico">criar novo tópico</button>
+                          <button   class="criar-novo-topico">criar novo tópico</button>
 
            </div>
 
@@ -172,9 +173,9 @@
         </div>
         
         
-        <!--    <div class="final">
+          <div class="final">
           <img src="./img/imagem - footer.png">
-        </div> -->
+        </div> 
 
         </section>
         
