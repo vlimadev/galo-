@@ -1,6 +1,6 @@
 *
 {position: relative;
-max-width:1336px;
+max-width:1686px;
 height:max-content;
 padding: 0;
 margin: 0;
@@ -9,6 +9,7 @@ background: #FFFFFF;
 
 html{
     overflow-x:hidden;
+    width: 100%;
     
     }
 
@@ -234,7 +235,7 @@ nav a:hover {
 }
 /* todo conteudo */
 .conteudo{
-    position:absolute;
+    position:relative;
     width: 1059px;
     height: 1382px;
     left: 263px;
@@ -266,7 +267,7 @@ border-radius: nullpx;
 width: 120px;
 left: 842px;
 top: 0px;
-position: absolute;
+position:absolute;
 left: 79.51%;
 right: 9.16%;
 bottom: 97.76%;
@@ -283,6 +284,7 @@ background-image:url(/img/download\ button.png);
 width: 43px;
 left: 967px;
 top: 0px;
+
 border-radius: 4px;
 color: #FDF1EB;
 background: #ED7839;
