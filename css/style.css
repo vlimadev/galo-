@@ -13,7 +13,7 @@ html{
     
     }
 
-
+/*menu lateral*/
 
 .side-bar-shadow{
  position: absolute;
@@ -28,6 +28,7 @@ width: 220px;
 border-radius: 0px;
 }
 
+/*header-parte de cima*/
 header{
 position:relative;
 width: 100%;
@@ -231,7 +232,7 @@ nav a:hover {
     border-left: 3px solid
     rgba(237, 120, 57, 1);
 }
-
+/* todo conteudo */
 .conteudo{
     position:absolute;
     width: 1059px;
@@ -332,7 +333,7 @@ text-align: right;
 letter-spacing: 0.05em;
 color: #ED7839;
 }
-
+/*painel lateral direito*/
 .painel{
 position: absolute;
 width: 242px;
@@ -467,7 +468,7 @@ color: #5C5C5C;
     color: #5C5C5C;
     
 }
-
+/* discussoes-comentarios*/
 .discussoes{
     position:relative;
     width: 1058px;
@@ -585,7 +586,7 @@ color:white;
 cursor: pointer;
 display:inline;
 }
-
+/*formularios*/
 #form-topico form input{
     display: block;
     margin-top: 10px;
@@ -623,11 +624,9 @@ font-size: 14px;
 line-height: 17px;
 text-align: center;
 color: #5C5C5C;
-
-
   }
 
-  .titulo-assunto{
+.titulo-assunto{
 height: 19px;
 width: 1020.5154418945312px;
 left: -0.46533203125px;
@@ -665,7 +664,7 @@ color: #ED7839;
 
 
   }
-
+/*para digitar comentario*/
   .textarea{
 height: 113px;
 width: 1025.5179443359375px;
@@ -745,7 +744,7 @@ border-radius: 0px 0px 3px 4px;
   background: #FFFFFF;
   
 }
-
+/*aparece após enviar formulario*/
 .mensagem h1{
 position: absolute;
 top:30px;
@@ -821,7 +820,7 @@ position: absolute;
 border: 1px solid #E7E7E7;
 background-color: #ED7839;
 }
-
+/*comentario esperando aprovação*/
 .aguardando{
 display: hide;
 height: 148px;
