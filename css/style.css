@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+@font-face {
+font-family:Segoe UI;
+src: url(/fonts/Segoe\ UI.woff);
+}
+
+
 *
 {position: relative;
-max-width:1686px;
+max-width:1680px;
 height:max-content;
 padding: 0;
 margin: 0;
@@ -23,7 +30,7 @@ top: 0%;
 bottom: -47.44%;
 background: #FFFFFF;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-height: 2410px;
+height:2150px;
 width: 220px;
 border-radius: 0px;
 }
@@ -47,7 +54,7 @@ height: 68px;
 }
 
 .idioma{
-  background-image: url(/img/botão\ -\ idiomas.png);
+    font-family:"Quicksand";
     position: absolute;
     width: 97px;
     height: 34px;
@@ -63,7 +70,8 @@ height: 68px;
 .txt-header h2{
 font-size: 14px;
 width: 391px;
-height: 16px;
+height: 0px;
+position: absolute;
 left: 36px;
 top: 5px;
 font-family:"Roboto";
@@ -75,13 +83,16 @@ background-color: #FDF1EB;
 color: #725C5C;
 }
 .txt-header h1{
-font-size: 22px;
+font-size: 21px;
 color:#725C5C;
-background-color:#FDF1EB;
+background-color:#855137;
 width: 643px;
-height: 26px;
+height: 0px;
+top: 23px;
 left: 36px;
+position: absolute;
 line-height: 26px;
+font-family: "Roboto";
 }
 
 .txt-header h3{
@@ -91,7 +102,7 @@ height: 16px;
 left: 36px;
 top: 48px;
 
-font-family: Roboto;
+font-family:"Roboto";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -108,7 +119,7 @@ height: 18px;
 left: 999px;
 top: 17px;
 background-color: transparent;
-font-family:Quicksand;
+font-family:"Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -123,7 +134,7 @@ width: 163px;
 height: 15px;
 left: 908px;
 top: 36px;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -184,10 +195,11 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
+font-family:"Roboto";
 line-height: 35px;
 display: flex;
 text-align: center;
-width: 220px;
+width: 178px;
 }
 .top-nome-evento img{
 position: static;
@@ -202,8 +214,9 @@ margin-top: 68px;
 
 nav{
 background-color: rgba(255, 255, 255, 1);
-position: relative;
+position:relative;
 display: block;
+top: 25%;
 width: 220px;
 height: 50px;
     
@@ -216,16 +229,17 @@ position:static;
 display:inline-block;
 width: 220px;
 height: 35px;
-color:rgba(114, 92, 92, 1);
-text-align:center;
+color:rgba(114, 92, 92, 1);;
 font-size: 15px;
 font-family:"Quicksand";
 border-bottom: 1px solid rgba(236, 236, 236, 1);
 cursor: pointer;
+
+
         
 }
 nav a label{
-    margin-left: 5px;
+    margin-left: 100px;
 }
 nav a:hover {
     transition:0s;
@@ -248,18 +262,15 @@ height: 54px;
 left: 0px;
 right: 273px;
 top: 0px;
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
-font-weight: 900;
+font-weight: 900PX;
 font-size: 20px;
 line-height: 25px;
 letter-spacing: 0.05em;
 color: #ED7839;
-height: 54px;
 width: 786px;
-left: 0px;
-top: 0px;
-border-radius: nullpx;
+
 }
 
 .dowload{
@@ -271,44 +282,64 @@ position:absolute;
 left: 79.51%;
 right: 9.16%;
 bottom: 97.76%;
-color: #FDF1EB;
+color: #FFFFFF;
 background: #ED7839;
 border-radius: 4px;
 border:none;
 cursor: pointer;
-background-image:url(/img/download\ button.png);
+font-family: "Roboto";
+
 }
 
+.dowloadimg{
+height: 19px;
+width: 19px;
+left: 0px;
+top: 0px;
+background:none;}
+
 .favorito{
- height: 31px;
+height: 31px;
 width: 43px;
 left: 967px;
 top: 0px;
-
 border-radius: 4px;
-color: #FDF1EB;
+color: #FFFFFF;
 background: #ED7839;
 border-radius: 4px;
 border:none;
 cursor: pointer;
+}
 
-background-image: url(/img/favorite\ button.png);
+.fav{
+background: none;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.01em;
+text-transform: uppercase;
 }
 
 .doi{
 height: 31px;
 width: 43px;
 left: 967px;
-top: 0px;
+position: relative;
+top: -2px;
 border-radius: 4px;
 color: #FDF1EB;
 background: #ED7839;
 border-radius: 4px;
 border:none;
 cursor: pointer;
-
-background-image: url(/img/doi\ button.png);
 }
+
 
 .video{
     position: absolute;
@@ -321,19 +352,20 @@ background-image: url(/img/doi\ button.png);
 }
 
 .como-citar{
+font-family:"Roboto";
 position: absolute;
-width: 242px;
+width: 239px ;
 height: 25px;
 right: 0px;
 top: 43px;
-font-family: Roboto;
-font-style: normal;
+font-style:normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 25px;
 text-align: right;
 letter-spacing: 0.05em;
 color: #ED7839;
+
 }
 /*painel lateral direito*/
 .painel{
@@ -354,7 +386,7 @@ background: #FDF1EB;
 border: 1px solid #ECECEC;
 box-sizing: border-box;
 border-radius: 3px 3px 0px 0px;
-font-family:roboto;
+font-family:"roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -367,20 +399,20 @@ color: #4E4E4E;
 
 .txt-painel{
 position: absolute;
-width: 242px;   
+height: 36px;  
 left: 2%;
 top: 12%;   
-font-family: Quicksand;
+font-family:"Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 120%;
+line-height: 14,4px;
 letter-spacing: 0.02em;   
 color: #5C5C5C;   
 
 }
 
-.txt-resumo{
+.txt-resumo {
 position: relative;
 width: 1058px;
 height: max-content;
@@ -390,6 +422,7 @@ border: 1px solid #ECECEC;
 box-sizing: content-box;
 border-radius: 3px;
 box-sizing: content-box;
+
 
 
 
@@ -403,7 +436,7 @@ background: #FDF1EB;
 border: 1px solid #ECECEC;
 box-sizing: border-box;
 border-radius: 3px 3px 0px 0px;
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -420,7 +453,7 @@ width: 1028px;
 height: max-content;
 left: 0px;
 top: 0px;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -440,7 +473,7 @@ color: #5C5C5C;
     position: relative;
     width: 60px;
     height: 24px;
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -460,13 +493,14 @@ color: #5C5C5C;
     height: 180px;
     left: 0px;
     top: 0px;
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     letter-spacing: 0.02em;
     flex: none;
+    display: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
@@ -486,7 +520,7 @@ color: #5C5C5C;
 }
 
 .titulo-discussoes{
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -509,7 +543,7 @@ left: 30.64%;
 right: 29.51%;
 top: 10%;
 bottom: 30.75%;
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -557,7 +591,7 @@ top: 1325px;
 border-radius: nullpx;
 top: 30%;
 bottom: 22.19%;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -591,6 +625,12 @@ border: none;
 color:white;
 cursor: pointer;
 display:inline;
+font-family: "quicksand";
+}
+
+.mais{
+  background-color:transparent;
+  left: -5px;
 }
 /*formularios*/
 #form-topico form input{
@@ -601,6 +641,7 @@ display:inline;
   #form-topico{
     display: inline;
     max-width:1040px;
+    top: 40px;
    
   }
   
@@ -608,7 +649,7 @@ display:inline;
      display:none;
      Width:800px;
      height:10%;
-     top: 130px;
+     top: 90px;
      left: 1%;
   }
 
@@ -617,13 +658,12 @@ height: 18px;
 width: 965.3748168945312px;
 left: 28.832763671875px;
 top: 0px;
-border-radius: nullpx;
 position: absolute;
 left: 2.81%;
 right: 3%;
 top: 0%;
 bottom: 92.65%;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -637,12 +677,11 @@ height: 19px;
 width: 1020.5154418945312px;
 left: -0.46533203125px;
 top: 40px;
-border-radius: nullpx;
 position: absolute;
 width: 1020.52px;
 left: -0.47px;
 bottom: 75.92%;
-font-family: Roboto;
+font-family:"Roboto";
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -655,12 +694,11 @@ color: #ED7839;
 width: 1020.5154418945312px;
 left: -0.46533203125px;
 top: 109px;
-border-radius: nullpx;
 position: absolute;
 width: 1020.52px;
 left: -0.47px;
 bottom: 75.92%;
-font-family: Roboto;
+font-family:"Roboto";
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -712,6 +750,7 @@ height: 31px;
 width: 205.10357666015625px;
 left: 818.40478515625px;
 top: 235px;
+font-family:"Quicksand";
 border: none;
 color: white;
 background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
@@ -741,7 +780,7 @@ border-radius: 0px 0px 3px 4px;
   display: hidden;
   height: 350px;
   width: 1056px;
-  top: -12px;
+  top: -45px;
   border-radius: 4px;
   position:absolute;
   left:1px;
@@ -758,7 +797,7 @@ height: 22px;
 width: 537.9583740234375px;
 left: 246.9871826171875px;
 bottom: 44.32%;
-font-family: Roboto;
+font-family:"Roboto";
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -774,7 +813,7 @@ left: 113.343505859375px;
 top:70px;
 position: absolute;
 bottom: 41.81%;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -788,7 +827,7 @@ position: absolute;
 top:150px;
 left:33%;
 bottom: 38.57%;
-font-family: Quicksand;
+font-family: "Quicksand";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -814,6 +853,7 @@ border-radius: 4px;
 border: none;
 color: white;
 cursor: pointer;
+font-family: "Quicksand";
 }
 
 .barra-btn-criar{
@@ -832,17 +872,186 @@ display: hide;
 height: 148px;
 width: 1000px;
 left: 15px;
-top: 450px;
+top: 410px;
+background: #DDDDDD;
 border-radius: 4px;
 position: absolute;
 left: 1.42%;
 right: 1.51%;
 bottom: 10.27%;
+filter: blur(0,5px);
 background: #FFFFFF;
 border: 1px solid #E7E7E7;
 box-sizing: border-box;
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
+}
+
+.aguardando-desfocado{
+  display: hide;
+  height: 148px;
+  width: 1000px;
+  top: 0px;
+  background: #dddddde3;;
+  border-radius: 4px;
+  position: absolute;
+  left: 0px;
+  bottom: 10.27%;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+
+
+.checando {
+background-color:transparent;
+font-size: 25px;
+position: absolute;
+left: 47.22%;
+right: 49.77%;
+top: 23,65%;
+bottom: 60.66%;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 23px;
+
+color: #707070;
+
+border-radius: 4px;
+
+}
+
+.aguardando-feedback{
+  position: absolute;
+  left: 30.08%;
+  right: 29.62%;
+  top: 44.59%;
+  bottom: 41.89%;
+  background-color:transparent;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #707070;
+ 
+}
+
+.editar-topico{
+  
+position: absolute;
+left: 42.71%;
+right: 45.41%;
+top: 63.51%;
+bottom: 23.65%;
+font-family: "Segoe UI";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-decoration-line: underline;
+color: #ED7839;
+background-color: transparent;
+cursor: pointer;
+}
+
+.aguardando h1{
+position: absolute;
+left: 3.7%;
+right: 71.09%;
+top:10%;
+height: 20px;
+width: 267px;
+font-family: "Quicksand";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
+}
+
+.nome {
+position: absolute;
+left: 3.7%;
+right: 45.11%;
+top:25%;
+bottom: 18.03%;
+font-family: "Quicksand";
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #5C5C5C;
+}
+
+.txt-comentario{
+position: absolute;
+left: 3.7%;
+right: 3.7%;
+top: 40%;
+bottom: 15.06%;
+font-family:"Quicksand";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #4D4D4D;
+
+}
+
+.mais-info{
+position: absolute;
+width: 4px;
+height: 18px;
+left: 39px;
+top: 75%;
+cursor: pointer;
+}
+
+.favoritar{
+  position: absolute;
+  width: 29px;
+  height: 25px;
+  left: 58px;
+  top: 74%;
+  border: none;
+  background-image:url(/img/favoritar.png);
+}
+
+.likes{
+position: absolute;
+left: 9.44%;
+right: 87.82%;
+top: 75%;
+width: 35px;
+height: 19px;
+bottom: 13.08%;
+font-family:"Segoe UI";
+font-style: normal;
+font-weight: 350px;
+font-size: 14px;
+line-height: 19px;
+color: #757575;
+}
+
+.respostas{
+position: absolute;
+left: 13.6%;
+right: 87.82%;
+top: 75%;
+width: 65px;
+height: 19px;
+bottom: 13.08%;
+font-family:"Segoe UI";
+font-style: normal;
+font-weight: 350px;
+font-size: 14px;
+line-height: 19px;
+color: #757575;
+  
 }
 
 .comentarios-feitos{
@@ -858,31 +1067,44 @@ border-radius: 4px;
 
 
 
-.comentarios-feitos img{
+.comentarios-feitos-div{
   display: hide;
   height: 148px;
   width: 1000px;
-  left: 15px;
-  
   border-radius: 4px;
-  position: relative;
-  left: 1.42%;
-  right: 1.51%;
+  position:relative;
   bottom: 10.27%;
   background: #FFFFFF;
   border: 1px solid #E7E7E7;
   box-sizing: border-box;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  top: -50px;
+  left: -5px;
+  }
+
+.comentarios-feitos-div h1{
+position: absolute;
+left: 3.7%;
+right: 71.09%;
+top:10%;
+height: 20px;
+width: 267px;
+font-family: "Quicksand";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
   }
 
 
 
 
 .final{
-position: absolute;
+position:relative;
 right: 4.01%;
-top:155%;
+top:70%;
 bottom: 0%;
 left:0%;
 width: 0px;
@@ -894,8 +1116,36 @@ position: absolute;
 right: 4.01%;
 top:100%;
 bottom: 0%;
-width: 1066px;
-left: 1%;
-height: 181px;
-cursor: pointer;
+width: 200px;
+height: 85px;
+left: 0px;
+
 }
+
+.saiba-mais{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #71478E;
+  border-radius: 5px;
+  color: #FFF;
+  border: none;
+  margin: 0 auto;
+  top:100px;
+  padding: calc(10px / 2);
+  width: 200px;
+  cursor: pointer;
+}
+
+.final p{
+
+  width: 800px;
+  font-family: "Quicksand";
+  font-size: 14px;
+  background-color: none;
+  left: 220px;
+}
+
+
+
