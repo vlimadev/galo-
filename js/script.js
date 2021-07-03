@@ -25,7 +25,7 @@ function leiaMais(){
 
 function mostrar(elemento){
     var display = document.getElementById(elemento).style.display;
-      if(display == "none"){
+      if(display === "none"){
           document.getElementById(elemento).style.display = 'block';
       }else{
           document.getElementById(elemento).style.display = 'none';
@@ -42,4 +42,10 @@ function mostrar(elemento){
 
   }
   
-  
+function menuOnClick(){
+
+document.getElementById("barra-menu").classList.toggle("change");
+document.getElementById("nav").classList.toggle("change");
+document.getElementById("menu-bg").classList.toggle("change-bg");
+
+}

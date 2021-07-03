@@ -26,13 +26,14 @@ html{
  position: absolute;
 left: 0%;
 right: 0%;
-top: 0%;
+top: 68px;
 bottom: -47.44%;
 background: #FFFFFF;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 height:2150px;
 width: 220px;
 border-radius: 0px;
+
 }
 
 /*header-parte de cima*/
@@ -212,7 +213,7 @@ margin-top: 68px;
     width: 220px;
 }
 
-nav{
+.nav-menu{
 background-color: rgba(255, 255, 255, 1);
 position:relative;
 display: block;
@@ -222,7 +223,7 @@ height: 50px;
     
     
 }
-nav a {
+.nav-menu a {
 text-decoration: none;
 background-color: rgba(255, 255, 255, 1);
 position:static;
@@ -238,14 +239,23 @@ cursor: pointer;
 
         
 }
-nav a label{
+.nav-menu a label{
     margin-left: 100px;
 }
-nav a:hover {
+.nav-menu a:hover {
     transition:0s;
     background-color:  rgba(253, 241, 235, 1);
     border-left: 3px solid
     rgba(237, 120, 57, 1);
+
+}
+
+#menu-mobile{
+  display: none;
+}
+
+.nav-menu-mobile{
+  display: none;
 }
 /* todo conteudo */
 .conteudo{
@@ -270,7 +280,10 @@ line-height: 25px;
 letter-spacing: 0.05em;
 color: #ED7839;
 width: 786px;
+}
 
+.titulo-mobile{
+  display: none;
 }
 
 .dowload{
@@ -338,6 +351,10 @@ background: #ED7839;
 border-radius: 4px;
 border:none;
 cursor: pointer;
+}
+
+.btns{
+  background-color: transparent;
 }
 
 
@@ -507,6 +524,10 @@ color: #5C5C5C;
     margin: 0px 0px;
     color: #5C5C5C;
     
+}
+
+.comentarios{
+  background-color: transparent;
 }
 /* discussoes-comentarios*/
 .discussoes{
@@ -1145,6 +1166,552 @@ left: 0px;
   font-size: 14px;
   background-color: none;
   left: 220px;
+}
+
+#btn-menu{
+  display: none;
+}
+
+/*configurações de responsividade*/
+
+@media (max-width:1000px){
+
+  body{
+    width:100em ;
+    height:100% ;
+  }
+
+  html{
+    width:max-content ;
+    height:max-content ;
+  }
+
+  .rectangle{
+    width:1630px;
+    height: 300px;
+    display: flex;
+
+  }
+
+  .txt-rtg{
+    left: 30%;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    font-size: 100px;
+    top: 45%;
+  }
+.side-bar-shadow{
+  display: none;
+  
+}
+
+#menu-mobile{
+  z-index: 3;
+  background-color: transparent;
+  display: block;
+  
+}
+
+#barra-menu{
+  top: 30px;
+  width: 130px;
+  height: 40px;
+  margin: 30px 0 20px 30px;
+  cursor: pointer;
+}
+
+.barra{
+  height: 40px;
+  margin-bottom:15px;
+  width: 130px;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1{
+
+  transform: translateY(-4px);
+}
+
+#bar3{
+  transform: translateY(4px);
+}
+
+.nav-menu-mobile{
+  transition: 0.3s ease;
+  display: none;
+  z-index: 2;
+  width: 100%;
+  height: 2500px;
+}
+
+
+
+.nav-menu-mobile ul{
+  width: 110%;
+  height: 2680px;
+  background-color: orange;
+  
+}
+
+.nav-menu-mobile li{
+  list-style:none;
+  text-align: center;
+  top: 10%;
+  width: 100%;
+  height: 400px;
+}
+
+.nav-menu-mobile li a{
+  color: #25190f;
+  background-color:transparent;
+  font-size: 100px;
+  width: 1000px;
+  top: 35%;
+  text-decoration: none;
+  
+}
+
+.nav-menu-mobile li a:hover{
+  font-weight: bold;
+}
+.nav-menu-mobile li:hover{
+  font-weight: bold;
+  border-left: 50px solid
+    rgba(237, 120, 57, 1);
+
+  
+}
+.menu-bg, #menu-mobile{
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg{
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  transition: 0.3s ease;
+}
+
+.change{
+  display: block;
+}
+
+.change .barra{
+  background-color: #4E4E4E;
+}
+
+.change #barra1{
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #barra2{
+  opacity: 0;
+}
+
+.change #barra3{
+  transform:translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg{
+  width: 520px;
+  height:460px;
+  transform: translate(-60%, -30%);
+}
+
+.conteudo{
+  width:100em;
+  left: 15px;
+  height: 2980px;
+  top:300px;
+
+}
+
+.como-citar{
+  left: -150px;
+  top: 890px;
+  font-size: 40px;
+  width:900px;
+}
+
+
+.painel{
+  display:absolute;
+  width: 800px;
+  left: 3em;
+  top: 950px; 
+  height:800px; 
+ 
+}
+ .txt-painel{
+   font-size: 16px;
+   left: 0;
+   top:80px;
+   height: 70px;
+   width: 20px;
+ }
+
+ .titulo-painel{
+   width: 800px;
+   height: 80px;
+   font-size: 60px;
+   
+ }
+
+.titulo{
+  display: none;
+}
+
+.titulo-mobile{
+  width: 1320px;
+  font-size: 60px;
+  left: 1em;
+  display: block;
+  font-family: "Roboto";
+font-style: normal;
+line-height: 25px;
+letter-spacing: 0.05em;
+color: #ED7839;
+
+}
+.btns{
+  width: 260px;
+  height: 300px;
+  top: 930px;
+  left: 400px;
+}
+
+.dowload{
+  width:500px ;
+  height: 100px;
+  left: 500px;
+  font-size: 50px;
+  top: 100px;
+}
+
+.dowloadimg{
+  height: 19px;
+  width: 19px;
+  left: -50px;
+  top: 0px;
+  background:none;}
+
+  .favorito{
+    width: 500px;
+    height: 100px;
+    top: 300px;
+    left: 500px;
+  }
+
+.fav{
+  font-size: 50px;
+}
+
+.doi{
+  top: 400px;
+  width: 500px;
+  height: 100px;
+  left: 500px;
+  font-size: 50px;
+}
+
+
+.video{
+  width:85em;
+  height: 720px;
+  top: 100px;
+  left: 50px;
+ position:absolute;
+}
+
+.titulo-resumo{
+  width: 1360px;
+  font-size: 60px;
+  height: 80px;
+}
+.txt-resumo{
+  top:1500px;
+  left:3em;
+  width: 1360px;
+  height: max-content;
+  
+}
+ .txt-resumo-um {
+   font-size: 25px;
+   width: 1360px;
+   height:max-content ;
+   
+ }
+
+ #mais{
+   font-size: 25px;
+ }
+
+ #btnleiamais{
+   font-size:15px;
+   width: 70px;
+   zoom:160%;
+   
+   
+   
+ }
+
+ .titulo-discussoes{
+   width: 1360px;
+   height: 70px;
+   font-size: 60px;
+
+ }
+
+.discussoes{
+  top: 1550px;
+  left:3em;
+  width: 1360px;
+  height: 800px;
+}
+
+.ideias-e-duvidas{
+  font-size: 40px;
+  width: 960px;
+  left: 15%;
+  top:90px;
+}
+
+.icones{
+  top:50px;
+  width: 0px;
+  left: 10%;
+}
+
+.icone1{
+  width: 100px;
+  height: 100px;
+  left:200px;
+}
+.icone2{
+  width: 100px;
+  height: 100px;
+  left:480px;
+}
+.icone3{
+  width: 100px;
+  height: 100px;
+  left:700px;
+}
+
+.txt-estimulo{
+  font-size: 30px;
+  width: 1350px;
+  height: 50px;
+  left: 2px;
+  top:250px ;
+}
+
+.divisoria{
+  top: 300px;
+  width: 1330px;
+}
+
+#btn-criar{
+  width: 500px;
+  height: 90px;
+  top:360px;
+  font-size: 30px;
+}
+
+.tem-alguma-duvida{
+  font-size: 30px;
+  left: 200px;
+  top: 20px;
+}
+
+.titulo-assunto{
+  font-size: 40px;
+  left: 10px;
+}
+.assunto {
+  width: 1330px;
+  height: 70px;
+  left: 10px;
+}
+
+.titulo-conteudo{
+  font-size: 40px;
+  left: 10px;
+  top: 170px;
+}
+
+.textarea{
+  left: 10px;
+  width:1330px ;
+  top: 200px;
+}
+
+.barra-txt{
+  width: 1000px;
+  height: 50px;
+  left: 10px;
+  top: 310px;
+}
+
+.enviar{
+  left: 1010px;
+  top: 300px;
+  height:50px ;
+  width: 330px;
+  font-size: 30px;
+}
+
+#seuformulario{
+  top: 790px;
+  left: 50px;
+  width: 1350px;
+  height:600px ;
+}
+
+.mensagem{
+  top: 200px;
+  left: 3em;
+  width: 1360px;
+  height:800px ;
+}
+
+.mensagem h1{
+  font-size: 50px;
+  width: 1360px;
+  left: 10px;
+}
+.mensagem p{
+  font-size: 25px;
+  width: 1360px;
+  top:80px;
+  left: 2px;
+}
+
+.mensagem h2{
+  font-size: 25px;
+  width: 600px;
+  left: 400px;
+}
+
+.barra-btn-criar{
+  width: 1320px;
+  top:300px;
+}
+
+.criar-novo-topico{
+  width: 500px;
+  height: 90px;
+  top:250px;
+  font-size: 30px;
+  left: 450px;
+}
+.aguardando{
+  top: 950px;
+  left: 3em;
+  width: 1360px;
+  height: 250px;
+
+}
+
+.aguardando-desfocado{
+  top: 0px;
+  width: 1360px;
+  height: 250px;
+}
+
+.comentarios{
+  background-color: transparent;
+}
+.comentarios-feitos-div{
+  top: -120px;
+  left: 1em;
+  width: 1360px;
+  height: 250px;
+}
+
+.comentarios-feitos-div h1{
+  font-size: 40px;
+  width: 700px;
+  height: 50px;
+}
+
+.comentarios-feitos-div .nome{
+  font-size: 30px;
+  height: 10px;
+  margin-top: 5px;
+  padding: 0;
+  background-color: none;
+}
+
+.txt-comentario{
+  font-size: 30px;
+  width: 1300px;
+  height: 100px;
+  letter-spacing: 0,5px;
+  
+}
+
+.mais-info{
+  width: 10px;
+  height: 40px;
+}
+
+.favoritar{
+  top: 190px;
+  left: 80px;
+}
+
+.likes{
+  font-size: 30px;
+  width: 100px;
+}
+
+.respostas{
+  font-size: 30px;
+  width: 140px;
+  left: 250px;
+}
+
+.checando{
+font-size: 50px;
+}
+
+.aguardando-feedback{
+  font-size: 30px;
+  top: 130px;
+}
+
+.editar-topico{
+  font-size: 25px;
+}
+
+.final img{
+  width: 300px;
+  height: 200px;
+  top: -150px;
+}
+.final p{
+  font-size:40px ;
+  width: 1100px;
+  top: -200px;
+  left: 320px;
+}
+
+.saiba-mais{
+  width: 300px;
+  height: 60px;
+  top: 50px;
+  font-size: 40px;
+}
+
+
 }
 
 
